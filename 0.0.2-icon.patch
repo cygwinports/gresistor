@@ -1,0 +1,11 @@
+--- origsrc/gresistor-0.0.2/gresistor.glade	2013-02-18 23:55:18.000000000 -0600
++++ src/gresistor-0.0.2/gresistor.glade	2015-10-07 20:10:44.074350900 -0500
+@@ -11,7 +11,7 @@
+   <property name="modal">False</property>
+   <property name="resizable">False</property>
+   <property name="destroy_with_parent">False</property>
+-  <property name="icon">gresistor.png</property>
++  <property name="icon">../icons/hicolor/48x48/apps/gresistor.png</property>
+   <property name="decorated">True</property>
+   <property name="skip_taskbar_hint">False</property>
+   <property name="skip_pager_hint">False</property>

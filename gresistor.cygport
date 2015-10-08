@@ -1,0 +1,19 @@
+inherit python-distutils
+
+NAME="gresistor"
+VERSION=0.0.2
+RELEASE=1
+CATEGORY="Science"
+SUMMARY="Resistor color code calculator"
+DESCRIPTION="This is a program which models common, commercial resistors to
+calculate resistivity of a resistor."
+HOMEPAGE="https://sourceforge.net/projects/gresistor/"
+SRC_URI="mirror://sourceforge/gresistor/gresistor-${VERSION}.tar.gz"
+SRC_URI+=" https://bazaar.launchpad.net/~thekad/tepache/main/download/head:/simplegladeapp.py-20090612002232-i3hrfm575d7wpe3k-1/SimpleGladeApp.py"
+PATCH_URI="
+	0.0.2-desktop.patch
+	0.0.2-icon.patch
+	0.0.2-python-package.patch
+"
+
+ARCH=noarch

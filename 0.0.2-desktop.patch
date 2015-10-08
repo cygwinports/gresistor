@@ -1,0 +1,18 @@
+--- origsrc/gresistor-0.0.2/gresistor.desktop	2013-02-18 23:52:56.000000000 -0600
++++ src/gresistor-0.0.2/gresistor.desktop	2015-10-07 20:19:16.528661600 -0500
+@@ -1,14 +1,11 @@
+ [Desktop Entry]
+-Version=0.0.2
+-Encoding=UTF-8
+ Name=gResistor
+ Comment=Resistor color code calculator
+ Icon=gresistor
+ Exec=gresistor
+ Terminal=false
+ Type=Application
+-MimeType=application/x-glade;
+-Categories=Electronics;Engineering;
++Categories=Education;Science;Electronics;Engineering;
+ Name[ro]=gResistor
+ Comment[ro]=Calculator pentru formule electrice
+ Name[ro_RO]=gResistor

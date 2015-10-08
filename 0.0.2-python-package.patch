@@ -1,0 +1,28 @@
+--- origsrc/gresistor-0.0.2/__init__.py	1969-12-31 18:00:00.000000000 -0600
++++ src/gresistor-0.0.2/__init__.py	2015-10-07 20:12:37.618845300 -0500
+@@ -0,0 +1 @@
++# placeholder
+--- origsrc/gresistor-0.0.2/gresistor	2013-02-18 22:56:23.000000000 -0600
++++ src/gresistor-0.0.2/gresistor	2015-10-07 20:11:32.164101500 -0500
+@@ -14,8 +14,8 @@ import gtk
+ 
+ import pango
+ 
+-from SimpleGladeApp import SimpleGladeApp
+-from SimpleGladeApp import bindtextdomain
++from gresistor.SimpleGladeApp import SimpleGladeApp
++from gresistor.SimpleGladeApp import bindtextdomain
+ 
+ app_name = "gresistor"
+ app_version = "0.0.2"
+--- origsrc/gresistor-0.0.2/setup.py	2013-02-19 00:02:08.000000000 -0600
++++ src/gresistor-0.0.2/setup.py	2015-10-07 20:11:18.046294000 -0500
+@@ -12,6 +12,8 @@ setup(name='gresistor',
+       data_files       = [('share/gresistor',['gresistor.glade']),('share/applications',
+                        ['gresistor.desktop']),('share/icons/hicolor/48x48/apps',
+                        ['gresistor.png'])],
++      package_dir      = {'gresistor': ''},
++      packages         = ['gresistor'],
+       long_description = 'This program is used to calculate the value of resistivity of a common, commercial resistor',
+       #platform         = 'linux-i586'
+       )
